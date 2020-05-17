@@ -1,0 +1,57 @@
+
+
+@mixin imgPosition
+{
+    text-align: center;
+    margin: 0 auto;
+    float: none;
+}
+
+@mixin headingText
+{
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+@mixin button1
+{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: $color2;
+    border: 1px solid $color2;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 18px 50px;
+    border-radius: 3px;
+    transition: all 0.3s ease-in 0s;
+}
+
+@mixin hoverButton1
+{
+    background: $color2;
+    color: $primaryColor;
+    text-decoration: none;
+}
+
+@mixin redDivider
+{
+  width: 100px;
+  height: 2px;
+  background: $primaryColor;
+  margin: 0 auto;
+}
+
+@mixin h2SectionSkills
+{
+  text-transform: uppercase;
+  color: $primaryColor;
+  margin-top: 2%;
+  text-align: center;
+}
+
+@mixin progressBar
+{
+  height: 20%;
+  margin: 30px 20px;
+  background: $colorGris;
+}

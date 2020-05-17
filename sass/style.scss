@@ -1,0 +1,67 @@
+@import "_variables.scss";
+@import "_mixins.scss";
+@import "_bases.scss";
+
+
+/* ABOUT */
+#about
+{
+    padding-top: 100px;
+    background: $primaryColor;
+
+    .profile-picture
+    {
+        @include imgPosition;
+        img
+        {
+            max-width: 100%;
+            height: auto;
+        }
+    }
+        .about__heading
+        {
+            @include headingText;
+            h1
+            {
+                color: $color2;
+                text-transform: uppercase;
+            }
+            h3
+            {
+                color: $color3;
+            }
+            .heading__button1
+            {
+                @include button1;
+                &:hover
+                {
+                    @include hoverButton1;
+                }
+            }
+        }
+}
+
+/* SKILLS */
+#skills
+{
+  .skllis__red-divider
+  {
+    @include redDivider;
+  }
+  h2
+  {
+    @include h2SectionSkills;
+  }
+  .progress
+  {
+    @include progressBar;
+  }
+  .progress-bar
+  {
+    background: $primaryColor;
+    h5
+    {
+      text-shadow: 1px 1px 1px 1px $colorGris;
+    }
+  }
+}
