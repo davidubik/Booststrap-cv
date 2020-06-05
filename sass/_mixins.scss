@@ -41,6 +41,14 @@
   margin: 0 auto;
 }
 
+@mixin whiteDivider
+{
+  width: 100px;
+  height: 2px;
+  background: $color2;
+  margin: 0 auto;
+}
+
 @mixin h2SectionSkills
 {
   text-transform: uppercase;
@@ -54,4 +62,21 @@
   height: 20%;
   margin: 30px 20px;
   background: $colorGris;
+}
+
+@mixin timeLine
+{
+  padding: 30px 10px;
+  position : relative;
+  &:before
+  {
+      top:0;
+      bottom: 0;
+      position: absolute;
+      content: " ";
+      width: 5px;
+      background: $timeligneColor;
+      left: 50%;
+      margin-left: -2.5px;
+  }
 }

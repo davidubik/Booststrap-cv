@@ -65,3 +65,24 @@
     }
   }
 }
+
+
+/* EXPERIENCE */
+
+#experience
+{
+  .experience__white-divider
+  {
+    @include whiteDivider;
+  }
+    background: $primaryColor;
+    h2
+    {
+      color: $color2;
+    }
+      .timeligne
+      {
+        @include timeLine;
+      }
+
+}
