@@ -2,8 +2,13 @@ body {
   font-family: "Lato", sans-serif;
 }
 
+h1, h2 {
+  text-align: center;
+}
+
 h1, h2, h3, h4, h5 {
   font-weight: bold;
+  text-transform: uppercase;
 }
 
 section {
@@ -13,7 +18,7 @@ section {
 /* ABOUT */
 #about {
   padding-top: 100px;
-  background: #d82c2e;
+  background: rgba(31, 42, 77, 0.84);
 }
 #about .profile-picture {
   text-align: center;
@@ -48,7 +53,7 @@ section {
 }
 #about .about__heading .heading__button1:hover {
   background: #fff;
-  color: #d82c2e;
+  color: rgba(31, 42, 77, 0.84);
   text-decoration: none;
 }
 
@@ -56,12 +61,12 @@ section {
 #skills .skllis__red-divider {
   width: 100px;
   height: 2px;
-  background: #d82c2e;
+  background: rgba(31, 42, 77, 0.84);
   margin: 0 auto;
 }
 #skills h2 {
   text-transform: uppercase;
-  color: #d82c2e;
+  color: rgba(31, 42, 77, 0.84);
   margin-top: 2%;
   text-align: center;
 }
@@ -71,8 +76,36 @@ section {
   background: #ddd;
 }
 #skills .progress-bar {
-  background: #d82c2e;
+  background: rgba(31, 42, 77, 0.84);
 }
 #skills .progress-bar h5 {
   text-shadow: 1px 1px 1px 1px #ddd;
+}
+
+/* EXPERIENCE */
+#experience {
+  background: rgba(31, 42, 77, 0.84);
+}
+#experience .experience__white-divider {
+  width: 100px;
+  height: 2px;
+  background: #fff;
+  margin: 0 auto;
+}
+#experience h2 {
+  color: #fff;
+}
+#experience .timeligne {
+  padding: 30px 10px;
+  position: relative;
+}
+#experience .timeligne:before {
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  content: " ";
+  width: 5px;
+  background: #eab52b;
+  left: 50%;
+  margin-left: -2.5px;
 }
