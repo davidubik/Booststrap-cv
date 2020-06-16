@@ -85,15 +85,37 @@
         @include timeLine;
         li
         {
+          @include liPanel;
           .timeligne__badge
           {
             @include timeLigneBadgePosition;
           }
         }
+        .timeligne__panel-container
+        {
+          @include panel-container1_3;
+        }
+        .timeligne__panel-container-inverted
+        {
+          @include panelInverted;
+          .timeligne__panel
+          {
+            @include petiteFlecheAfter;
+          }
+        }
+        .timeligne__panel
+        {
+          @include timeLignePanel;
+          .timeligne__heading
+          {
+            h4
+            {
+                color: darken($primaryColor, 5);
+                text-shadow: 2px 2px 2px $colorGris;
+            }
+          }
+        }
       }
 
-      .timeligne__panel-container
-      {
 
-      }
 }

@@ -81,13 +81,6 @@
   }
 }
 
-@mixin panel-container1_3
-{
-  background: darken($color2, 20);
-  width: 40%;
-  border-radius: 3%;
-  text-align: center;
-}
 
 @mixin timeLigneBadgePosition
 {
@@ -101,4 +94,55 @@
   margin-left: -25px;
   background: #ddd;
   border-radius: 50%;
+}
+
+@mixin liPanel
+{
+  display: flex;
+  flex-direction: column;
+  margin-left: 2%;
+}
+
+@mixin panel-container1_3
+{
+  width: 50% ;
+}
+
+@mixin panelInverted
+{
+  width: 50%;
+  margin-left: 53%;
+}
+
+@mixin petiteFlecheAfter
+{
+  &:after
+  {
+    border-left-width: 0;
+    border-right-width: 14px;
+    left: -14px;
+    right: auto;
+  }
+}
+
+@mixin timeLignePanel
+{
+  background: darken($color2, 20);
+  width: 90%;
+  border: 1px solid $color2;
+  border-radius: 7px;
+  padding: 20px 25px;
+  position: relative;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+  &:after{
+    position: absolute;
+    top: 10px;
+    right: -14px;
+    display: inline-block;
+    border-top: 12px solid transparent;
+    border-left: 14px solid darken($color2, 20);
+    border-right: 0 solid darken($color2, 20);
+    border-bottom: 14px solid transparent;
+    content : " ";
+  }
 }

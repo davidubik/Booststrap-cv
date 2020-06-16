@@ -109,6 +109,11 @@ section {
   left: 50%;
   margin-left: -2.5px;
 }
+#experience .timeligne li {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2%;
+}
 #experience .timeligne li .timeligne__badge {
   color: rgba(31, 42, 77, 0.84);
   width: 50px;
@@ -120,4 +125,41 @@ section {
   margin-left: -25px;
   background: #ddd;
   border-radius: 50%;
+}
+#experience .timeligne .timeligne__panel-container {
+  width: 50%;
+}
+#experience .timeligne .timeligne__panel-container-inverted {
+  width: 50%;
+  margin-left: 53%;
+}
+#experience .timeligne .timeligne__panel-container-inverted .timeligne__panel:after {
+  border-left-width: 0;
+  border-right-width: 14px;
+  left: -14px;
+  right: auto;
+}
+#experience .timeligne .timeligne__panel {
+  background: #cccccc;
+  width: 90%;
+  border: 1px solid #fff;
+  border-radius: 7px;
+  padding: 20px 25px;
+  position: relative;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+}
+#experience .timeligne .timeligne__panel:after {
+  position: absolute;
+  top: 10px;
+  right: -14px;
+  display: inline-block;
+  border-top: 12px solid transparent;
+  border-left: 14px solid #cccccc;
+  border-right: 0 solid #cccccc;
+  border-bottom: 14px solid transparent;
+  content: " ";
+}
+#experience .timeligne .timeligne__panel .timeligne__heading h4 {
+  color: rgba(23, 32, 58, 0.84);
+  text-shadow: 2px 2px 2px #ddd;
 }
