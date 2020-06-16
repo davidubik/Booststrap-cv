@@ -83,6 +83,17 @@
       .timeligne
       {
         @include timeLine;
+        li
+        {
+          .timeligne__badge
+          {
+            @include timeLigneBadgePosition;
+          }
+        }
       }
 
+      .timeligne__panel-container
+      {
+
+      }
 }
