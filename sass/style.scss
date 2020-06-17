@@ -158,4 +158,9 @@
   {
     text-align: center;
   }
+  .imgPortfolio
+  {
+    @include imgStyle;
+  }
+
 }

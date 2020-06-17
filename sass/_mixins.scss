@@ -1,3 +1,5 @@
+/* GÉNÉRAL */
+
 
 /* ABOUT */
 
@@ -171,3 +173,17 @@
 }
 
 /* PORTFOLIO */
+
+@mixin imgStyle
+{
+  width: 80%;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  margin-left: 5%;
+  margin-top: 2%;
+  &:hover
+  {
+    filter:none;
+    -webkit-filter: none;
+  }
+}
