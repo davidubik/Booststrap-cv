@@ -1,3 +1,8 @@
+@charset "UTF-8";
+/* ABOUT */
+/* SKILLS */
+/* EXPÉRIENCE */
+/* ÉDUCATION */
 body {
   font-family: "Lato", sans-serif;
 }
@@ -58,7 +63,7 @@ section {
 }
 
 /* SKILLS */
-#skills .skllis__red-divider {
+#skills .skllis__blue-divider {
   width: 100px;
   height: 2px;
   background: rgba(31, 42, 77, 0.84);
@@ -162,4 +167,27 @@ section {
 #experience .timeligne .timeligne__panel .timeligne__heading h4 {
   color: rgba(23, 32, 58, 0.84);
   text-shadow: 2px 2px 2px #ddd;
+}
+
+/* EDUCATION */
+#education .education-block {
+  background: rgba(31, 42, 77, 0.84);
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px;
+  border-radius: 10px;
+  border: 2px solid #ddd;
+  margin-bottom: 20px;
+  color: #c4c4c4;
+}
+#education .education-block h3 {
+  font-size: 17px;
+  color: #fff;
+}
+#education .education-block .fa-graduation-cap {
+  color: #eab52b;
+}
+#education .education-block h4 {
+  color: #e6e6e6;
 }

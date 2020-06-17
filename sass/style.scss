@@ -44,9 +44,9 @@
 /* SKILLS */
 #skills
 {
-  .skllis__red-divider
+  .skllis__blue-divider
   {
-    @include redDivider;
+    @include blueDivider;
   }
   h2
   {
@@ -116,6 +116,27 @@
           }
         }
       }
+    }
 
+/* EDUCATION */
 
+#education
+{
+  .education-block
+  {
+  @include block;
+    h3
+    {
+      font-size: 17px;
+      color: $color2;
+    }
+    .fa-graduation-cap
+    {
+      color: $timeligneColor;
+    }
+    h4
+    {
+      color: darken($color2, 10);
+    }
+  }
 }

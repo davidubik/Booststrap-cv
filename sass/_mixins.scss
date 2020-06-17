@@ -1,4 +1,5 @@
 
+/* ABOUT */
 
 @mixin imgPosition
 {
@@ -33,7 +34,7 @@
     text-decoration: none;
 }
 
-@mixin redDivider
+@mixin blueDivider
 {
   width: 100px;
   height: 2px;
@@ -49,6 +50,8 @@
   margin: 0 auto;
 }
 
+/* SKILLS */
+
 @mixin h2SectionSkills
 {
   text-transform: uppercase;
@@ -63,6 +66,9 @@
   margin: 30px 20px;
   background: $colorGris;
 }
+
+
+/* EXPÉRIENCE */
 
 @mixin timeLine
 {
@@ -145,4 +151,20 @@
     border-bottom: 14px solid transparent;
     content : " ";
   }
+}
+
+
+/* ÉDUCATION */
+
+@mixin block
+{
+    background: $primaryColor;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    border: 2px solid $colorGris;
+    margin-bottom: 20px;
+    color: darken($colorGris, 10);
 }
