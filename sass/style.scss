@@ -140,3 +140,22 @@
     }
   }
 }
+
+/* PORTFOLIO */
+
+#portfolio
+{
+  background: $primaryColor;
+  h2
+  {
+    color: $timeligneColor;
+  }
+  .white-divider
+  {
+    @include whiteDivider;
+  }
+  .portfolio__container
+  {
+    text-align: center;
+  }
+}
