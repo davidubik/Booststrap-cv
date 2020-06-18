@@ -187,3 +187,34 @@
     -webkit-filter: none;
   }
 }
+
+/* FOOTER */
+
+@mixin cheveronProperty
+{
+  font-size: 35px;
+  color: $colorGris;
+  height: 45px;
+  &:hover
+  {
+    font-size: 40px;
+    color: $timeligneColor;
+  }
+}
+
+@mixin contactPosition
+{
+  display: flex;
+  justify-content: space-around;
+}
+
+@mixin logoContactProperty
+{
+  font-size: 40px;
+  color: $timeligneColor;
+  &:hover
+  {
+    font-size: 45px;
+    color: $colorGris;
+  }
+}

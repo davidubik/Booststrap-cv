@@ -9,26 +9,14 @@ background: $primaryColor;
   }
   .fa-chevron-up
   {
-    font-size: 35px;
-    color: $colorGris;
-    height: 45px;
-    &:hover
-    {
-      font-size: 40px;
-    }
+    @include cheveronProperty;
   }
   .footer_contact
   {
-    display: flex;
-    justify-content: space-around;
+    @include contactPosition;
   }
   .fa-envelope, .fa-github
   {
-    font-size: 40px;
-    color: $timeligneColor;
-    &:hover
-    {
-      font-size: 45px;
-    }
+    @include logoContactProperty;
   }
 }

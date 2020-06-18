@@ -19,7 +19,17 @@ section
   padding: 45px 0 80px 0;
 }
 
-.imgPortfolio
+.fa-connectdevelop
 {
-  @include imgStyle;
+  font-size: 8em;
+  color: $colorGris;
+  margin-bottom: 5%;
+}
+
+.fa-code
+{
+  font-size: 6em;
+  color: $colorGris;
+  margin-bottom: 5%;
+  text-shadow: 2px 2px 2px $color2; 
 }
