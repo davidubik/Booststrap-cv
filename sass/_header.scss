@@ -1,0 +1,31 @@
+/* HEADER */
+
+header
+{
+  nav
+  {
+    background: $primaryColor;
+    .fa-bars
+    {
+      color: $colorGris;
+      font-size: 2em;
+    }
+    ul
+    {
+      li
+      {
+        list-style: none;
+        a
+        {
+          text-decoration: none;
+          color: $colorGris;
+          &:hover
+          {
+            color: $timeligneColor;
+          }
+        }
+      }
+    }
+  }
+
+}

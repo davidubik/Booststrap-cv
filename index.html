@@ -10,6 +10,39 @@
     <title>David CV</title>
 </head>
 <body>
+  <header>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="row">
+        <div class="container">
+          <div class="navbar-header">
+      <!-- <button type="button"  class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"> -->
+      <i class="fas fa-bars  navbar-fixed-top" aria-hidden="true" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"></i>
+    <!-- </button> -->
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="navi-ul navbar-right">
+        <li class="active">
+          <a class="scroll" href="#about">Me</a>
+        </li>
+        <li>
+          <a class="scroll" href="#skills">Compétences</a>
+        </li>
+        <li>
+          <a class="scroll" href="#experience">Expérience</a>
+        </li>
+        <li>
+          <a class="scroll" href="#portfolio">Portfolio</a>
+        </li>
+        <li>
+          <a class="scroll" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+   </div>
+</div>
+</nav>
+  </header>
+
     <section id="about" class="container-fluid">
         <div class="col-xs-8 col-md-4 profile-picture">
             <img src="img/hero.png" alt="avatar" class="img-circle">
@@ -20,7 +53,6 @@
             <a href="docs/David_web_designer.pdf" class="heading__button1">Télécharger CV</a>
         </div>
   </section>
-
   <section id="skills">
     <div class="skllis__blue-divider"></div>
     <div class="skills__heading">
@@ -185,22 +217,22 @@
       <div class="row">
         <div class="col-sm-6">
           <a class="thumbnail" href="http://marcturksma.fr/" target="_blank">
-            <img src="img/sitemarcturksma.png" class="imgPortfolio" alt="">
+            <img src="img/sitemarcturksma.jpg" class="imgPortfolio" alt="">
           </a>
         </div>
         <div class="col-sm-6">
           <a class="thumbnail" href=" https://davidubik.github.io/chouette-agence/" target="_blank">
-            <img src="img/chouetteagence2.png" class="imgPortfolio" alt="">
+            <img src="img/chouetteagence.jpg" class="imgPortfolio" alt="">
           </a>
         </div>
         <div class="col-sm-6">
           <a class="thumbnail" href="https://davidubik.github.io/ohmyfood/" target="_blank">
-            <img src="img/ohmyfood.png" class="imgPortfolio" alt="">
+            <img src="img/ohmyfood.jpg" class="imgPortfolio" alt="">
           </a>
         </div>
         <div class="col-sm-6">
           <a class="thumbnail" href="#">
-            <img src="img/tiffanyhotel.png" class="imgPortfolio" alt="">
+            <img src="img/tiffanyhotel.jpg" class="imgPortfolio" alt="">
           </a>
         </div>
       </div>
@@ -212,7 +244,7 @@
     <a href="#about">
       <i class="fas fa-chevron-up"></i>
     </a>
-    <aside class="footer_contact">
+    <aside id="contact" class="footer_contact">
        <a href="dtwebdev@outlook.fr" target="_blank">
          <i class="far fa-envelope"></i>
        </a>

@@ -34,6 +34,56 @@ section {
   -webkit-filter: none;
 }
 
+/* HEADER */
+header nav {
+  background: rgba(31, 42, 77, 0.84);
+}
+header nav .fa-bars {
+  color: #ddd;
+  font-size: 2em;
+}
+header nav ul li {
+  list-style: none;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: #ddd;
+}
+header nav ul li a:hover {
+  color: #eab52b;
+}
+
+/* FOOTER */
+footer {
+  background: rgba(31, 42, 77, 0.84);
+}
+footer .white-divider {
+  width: 100px;
+  height: 2px;
+  background: #fff;
+  margin: 0 auto;
+  margin-bottom: 2%;
+}
+footer .fa-chevron-up {
+  font-size: 35px;
+  color: #ddd;
+  height: 45px;
+}
+footer .fa-chevron-up:hover {
+  font-size: 40px;
+}
+footer .footer_contact {
+  display: flex;
+  justify-content: space-around;
+}
+footer .fa-envelope, footer .fa-github {
+  font-size: 40px;
+  color: #eab52b;
+}
+footer .fa-envelope:hover, footer .fa-github:hover {
+  font-size: 45px;
+}
+
 /* ABOUT */
 #about {
   padding-top: 100px;
