@@ -111,7 +111,7 @@ footer .fa-envelope:hover, footer .fa-github:hover {
   text-transform: uppercase;
 }
 #about .about__heading h3 {
-  color: #000;
+  color: #eab52b;
 }
 #about .about__heading .heading__button1 {
   font-weight: bold;
@@ -136,6 +136,7 @@ footer .fa-envelope:hover, footer .fa-github:hover {
   height: 2px;
   background: rgba(31, 42, 77, 0.84);
   margin: 0 auto;
+  margin-bottom: 2%;
 }
 #skills h2 {
   text-transform: uppercase;
@@ -239,6 +240,16 @@ footer .fa-envelope:hover, footer .fa-github:hover {
 }
 
 /* EDUCATION */
+#education .yellow-divider {
+  width: 100px;
+  height: 2px;
+  background: #eab52b;
+  margin: 0 auto;
+  margin-bottom: 2%;
+}
+#education h2 {
+  color: rgba(31, 42, 77, 0.84);
+}
 #education .education-block {
   background: rgba(31, 42, 77, 0.84);
   width: 80%;
@@ -259,6 +270,13 @@ footer .fa-envelope:hover, footer .fa-github:hover {
 }
 #education .education-block h4 {
   color: #e6e6e6;
+}
+#education .education-block .yellow-divider {
+  width: 100px;
+  height: 2px;
+  background: #eab52b;
+  margin: 0 auto;
+  margin-bottom: 2%;
 }
 
 /* PORTFOLIO */

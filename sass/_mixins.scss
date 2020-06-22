@@ -42,6 +42,7 @@
   height: 2px;
   background: $primaryColor;
   margin: 0 auto;
+  margin-bottom: 2%;
 }
 
 @mixin whiteDivider
@@ -170,6 +171,15 @@
     border: 2px solid $colorGris;
     margin-bottom: 20px;
     color: darken($colorGris, 10);
+}
+
+@mixin yellowDiver
+{
+  width: 100px;
+  height: 2px;
+  background: $timeligneColor;
+  margin: 0 auto;
+  margin-bottom: 2%;
 }
 
 /* PORTFOLIO */
