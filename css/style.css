@@ -37,12 +37,21 @@ section {
 }
 
 /* HEADER */
+header {
+  width: 100%;
+}
 header nav {
   background: rgba(31, 42, 77, 0.84);
 }
 header nav .fa-bars {
   color: #ddd;
   font-size: 2em;
+}
+header nav ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: space-around;
 }
 header nav ul li {
   list-style: none;
@@ -145,7 +154,7 @@ footer .fa-envelope:hover, footer .fa-github:hover {
   text-align: center;
 }
 #skills .progress {
-  height: 20%;
+  height: 15%;
   margin: 30px 20px;
   background: #ddd;
 }
@@ -154,6 +163,7 @@ footer .fa-envelope:hover, footer .fa-github:hover {
 }
 #skills .progress-bar h5 {
   text-shadow: 1px 1px 1px 1px #ddd;
+  color: #ddd;
 }
 
 /* EXPERIENCE */

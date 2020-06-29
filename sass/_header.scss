@@ -2,6 +2,7 @@
 
 header
 {
+  width: 100%;
   nav
   {
     background: $primaryColor;
@@ -12,6 +13,9 @@ header
     }
     ul
     {
+      margin-top: 0;
+      margin-bottom: 0;
+      @include navPosition;
       li
       {
         list-style: none;

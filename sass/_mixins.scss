@@ -10,6 +10,13 @@
     float: none;
 }
 
+@mixin navPosition
+{
+  display: flex;
+  justify-content: space-around;
+}
+
+
 @mixin headingText
 {
     text-align: center;
@@ -66,7 +73,7 @@
 
 @mixin progressBar
 {
-  height: 20%;
+  height: 15%;
   margin: 30px 20px;
   background: $colorGris;
 }
