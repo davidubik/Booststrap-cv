@@ -62,6 +62,14 @@
   margin-bottom: 2%;
 }
 
+@mixin imgHeroProperty
+{
+  max-width: 60%;
+  height: auto;
+  border-radius: 500px;
+  border: 1px solid $color3;
+}
+
 /* SKILLS */
 
 @mixin h2SectionSkills
