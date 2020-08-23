@@ -3,7 +3,7 @@
 header
 {
   width: 100%;
-  nav
+  .navbar
   {
     background: $primaryColor;
     .fa-bars
@@ -13,12 +13,13 @@ header
     }
     ul
     {
-      margin-top: 0;
-      margin-bottom: 0;
+
       @include navPosition;
       li
       {
-        list-style: none;
+        // list-style: none;
+        // text-decoration: none;
+
         a
         {
           text-decoration: none;
